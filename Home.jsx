@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Home() {
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
   const userName = localStorage.getItem("userName");
-  // The new Module 7 logic (Paste this here!)
+ 
   const [recentVibes, setRecentVibes] = useState([]);
 
   useEffect(() => {
